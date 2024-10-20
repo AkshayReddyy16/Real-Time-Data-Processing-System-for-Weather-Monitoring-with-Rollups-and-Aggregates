@@ -52,30 +52,20 @@ The objective of this application is to continuously retrieve weather data and c
 
 ## Installation
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/weather_monitoring.git
-   cd weather_monitoring
+###  1. Clone the Repository
+```bash
+git clone https://github.com/AkshayReddyy16/Rule-Engine-with-AST.git
+cd Rule-Engine-with-AST
 ```
+###  2. Create a Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate  # For Linux/Mac
+venv\Scripts\activate      # For Windows
 ```
-2. **Create a Virtual Environment**:
-   ```bash
-  python -m venv venv
-```
-```
-3. **Activate the Virtual Environment**:
-   ```bash
-   #for windows
-   venv\Scripts\activate
-   ```
-   ```bash
-   #for Linux / Mac
-   source venv/bin/activate
-   ```
-4. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-```
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
 ```
 ## API Key
 To use the OpenWeatherMap API, you need to sign up for a free API key:
